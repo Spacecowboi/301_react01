@@ -1,11 +1,18 @@
 import './App.css'
+import Header from './components/Header'
+import Footer from './components/Footer'
+import Gallery from './components/Gallery'
 
 function App() {
-
   return (
-    <div>
-      <h1>Vite + React</h1>
-    </div>
+    <>
+    <Header />
+    <Gallery />
+      {/* <div>
+      </div>
+      <h1>Vite + React</h1> */}
+      <Footer />
+    </>
   )
 }
 
