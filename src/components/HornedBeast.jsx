@@ -1,5 +1,6 @@
 import React from 'react';
 import Card from 'react-bootstrap/Card';
+import heart from '../assets/heart.png';
 
 //lines 6-25 written with help from ChatGPT 3.5
 
@@ -31,7 +32,7 @@ class HornedBeast extends React.Component {
         <img src={this.props.image_url} alt={this.props.title} title={this.props.title} />
         <p>{this.props.description}</p>
         <button onClick={this.incrementFavorites}>
-          <img src ="heart.png" alt="Heart" className="heart-icon" /> Favorites: {this.state.favorites}
+          <img src={heart} alt="Heart" className="heart-icon" /> Favorites: {this.state.favorites}
         </button>
       </Card>
     );
