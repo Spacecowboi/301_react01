@@ -1,34 +1,26 @@
 import React from 'react';
 import HornedBeast from './HornedBeast';
+import beastValues from '../assets/data.json';
 
-const Gallery = () => {
-  const hornedBeasts = [
-    {
-      title: 'Beast 1',
-      imageUrl: 'http://3.bp.blogspot.com/_DBYF1AdFaHw/TE-f0cDQ24I/AAAAAAAACZg/l-FdTZ6M7z8/s1600/Unicorn_and_Narwhal_by_dinglehopper.jpg',
-      description: 'A unicorn and a narwhal nuzzling their horns',
-    },
-    {
-      title: 'Beast 2',
-      imageUrl: 'https://images.unsplash.com/photo-1512636618879-bbe79107e9e3?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=bd9460ee6d1ddbb6b1ca7be86dfc4590&auto=format&fit=crop&w=1825&q=80',
-      description: 'Parent rhino with two babies',
-    },
-  ];
+class Gallery extends React.Component {
+
+render() {
 
   return (
     <div>
-      {hornedBeasts.map((beast, index) => (
+      {beastValues.map((beast, index) => 
         <HornedBeast
           key={index}
           title={beast.title}
-          imageUrl={beast.imageUrl}
+          image_url={beast.image_url}
           description={beast.description}
         />
-      ))}
+      )}
     </div>
   );
-};
+  }
+}
+
 
 export default Gallery;
 
-//lines 18-30 Constructed with help from ChatGPT
