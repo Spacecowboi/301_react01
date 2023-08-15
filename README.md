@@ -1,8 +1,18 @@
-# React + Vite
+## Welcome to Horned Beast!
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Time Estimate for Features:
 
-Currently, two official plugins are available:
+* Number and name of feature: 
+    * Display Images - 1.5 hours
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+    * Allows users to Favorite Individual Beasts - 1.5 hours
+
+    * Bootstrap - 1.5 hours
+
+    Total estimated time to completion: 4.5 hours
+
+    Start time :
+
+    Finish time : 
+
+    Actual time needed to complete: 
